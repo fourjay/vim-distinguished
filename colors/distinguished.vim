@@ -124,6 +124,8 @@ call s:ColorDictParser({
 	\ , 'diffNewFile'                 : [    242, 'none',           'none']
 \ })
 
+highlight CursorLine guibg=#555555 ctermfg=NONE ctermbg=238 gui=none cterm=none
+
 hi link htmlTag            xmlTag
 hi link htmlTagName        xmlTagName
 hi link htmlEndTag         xmlEndTag
