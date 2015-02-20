@@ -34,7 +34,7 @@ call s:ColorDictParser({
 	\   'Normal'                      : [    231, 'none',           'none']
 	\ , 'Visual'                      : [ 'none',    239,           'none']
 	\
-	\ , 'CursorLine'                  : [    231,    237,           'none']
+	\ , 'CursorLine'                  : [ 'none',    237,           'none']
 	\ , 'CursorColumn'                : [    231,    237,           'none']
 	\
 	\ , 'Folded'                      : [    249,    234,           'none']
@@ -124,7 +124,6 @@ call s:ColorDictParser({
 	\ , 'diffNewFile'                 : [    242, 'none',           'none']
 \ })
 
-highlight CursorLine guibg=#555555 ctermfg=NONE ctermbg=238 gui=none cterm=none
 
 hi link htmlTag            xmlTag
 hi link htmlTagName        xmlTagName
